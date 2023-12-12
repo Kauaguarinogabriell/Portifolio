@@ -1,18 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
 }
-body{
+.App{
   min-height: 100vh;
-  background-color: #181719;
-  color: #F2ECFF;
-  font-size: 18px;
 }
 ul{
   list-style: none;
-}
-img{
-  display: block;
 }
 a{
   text-decoration: none;
@@ -22,56 +18,31 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .container{
-  display: flex;
-  align-items: center;
   padding: 1rem 2.5rem;
-  justify-content: space-between;
   max-width: 1500px;
 }
-.img-section{
-  width: 50%;
+.section-introducao{
+    background-color: #221824;
+    color: white;
+    height: 95vh;
+    text-align: center;
 }
 
 
-header{
-  background-color: #434144;
-  padding: 1.5rem;
+.button-about-me{
+    border: 4px solid #C7C7C7;
+    padding: .8rem 2.5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
 }
-header > nav > ul{
-  display: flex;
-  gap: 1rem;
+.social-midias{
+ display: flex;
+ gap: 1.5rem;
 }
-.mark-main{
-  color: #00C9A9;
+.icon-social-midia{
+  width: 35px;
 }
-.foto-perfil{
-  width: 60px;
-  border-radius: 50px;
-}
-.icone{
-  width: 80px;
-  margin-bottom: .5rem;
-}
-.card{
-  background-color: #34353C;
-  padding: .8rem;
-  border-radius: 5px;
-  min-width: 16%;
-  flex-basis: 1;
-}
-.card-habilits{
-  gap: 1rem;
-  padding: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
-}
-.container-habilidades{
-  display: flex;
-  align-items: center;
-}
-.points{
-  width: 25px;
-}
+
