@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  background-color: #181719;
+  color: #F2ECFF;
+  font-size: 18px;
+}
+ul{
+  list-style: none;
+}
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  justify-content: space-between;
+  max-width: 1500px;
+}
+.img-section{
+  width: 50%;
+}
+
+
+header{
+  background-color: #434144;
+  padding: 1.5rem;
+}
+header > nav > ul{
+  display: flex;
+  gap: 1rem;
+}
+.mark-main{
+  color: #00C9A9;
+}
+.foto-perfil{
+  width: 60px;
+  border-radius: 50px;
+}
+.icone{
+  width: 80px;
+  margin-bottom: .5rem;
+}
+.card{
+  background-color: #34353C;
+  padding: .8rem;
+  border-radius: 5px;
+  min-width: 16%;
+  flex-basis: 1;
+}
+.card-habilits{
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+.container-habilidades{
+  display: flex;
+  align-items: center;
+}
+.points{
+  width: 25px;
+}
