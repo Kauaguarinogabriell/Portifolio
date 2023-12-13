@@ -9,16 +9,16 @@ export default function Introduction() {
         className="container center"
         style={{ flexGrow: '1', width: '100%' }}
       >
-        <h1
-          style={{ color: '#cc005f', fontSize: '2rem', lineHeight: '1.5rem' }}
-        >
+        <h1 className="title" style={{ fontSize: '2rem' }}>
           Olá!
         </h1>
-        <h2 style={{ fontSize: '5rem', lineHeight: '110%' }}>Eu sou Kauã</h2>
+        <h2 className="subtitle" style={{ fontSize: '5rem' }}>
+          Eu sou Kauã
+        </h2>
         <h3 style={{ fontSize: '1.5rem', color: '#00A97F' }}>
           Front End Developer
         </h3>
-        <a href="#" className="button-about-me">
+        <a href="#sobre" className="button-about-me">
           Sobre mim{' '}
           <span>
             <img src={arrow} alt="arrow down" />
