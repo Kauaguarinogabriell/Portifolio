@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 .App{
   min-height: 100vh;
@@ -38,10 +39,13 @@ a{
   line-height: 110%;
   text-align: center;
 }
+/*final classes padrões*/
+
+/*introdução*/
 .section-introducao{
     background-color: #221824;
     color: white;
-    height:96vh;
+    height:100vh;
     text-align: center;
 }
 .button-about-me{
@@ -67,6 +71,9 @@ a{
   width: 45px;
   transition-duration: 300ms;
 }
+/*final introdução*/
+
+/*sobre mim*/
 .perfil, .container-divs-about{
   flex-direction: row;
   gap: 2.5rem;
@@ -105,6 +112,101 @@ a{
 .title-habilidades{
   text-align: center;
 }
+/*final sobre mim*/
+
+
+/*projetos*/
+.projetos{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.container-cards-projetos{
+  width: 100%;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+.card-projeto{
+  width: 300px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  min-height: 450px;
+}
+.project-img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius:8px ;
+  border-top-right-radius:8px ;
+  min-height: 165px;
+}
+.card-projeto-content{
+  color: #666666;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.body-card-habilidades > h3{
+  color: #333333;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: .3rem;
+}
+.footer-card{
+  display: flex;
+  flex-direction: column;
+}
+.tecnologias-card-projetos{
+  display: flex;
+  gap: .5rem;
+  width: 100%;
+  margin-top: .5rem;
+}
+.div-buttons-card-projetos{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem 0rem;
+}
+.button-projeto, .button-repositorio{
+  background-color: #C7C7C7;
+  padding: .7rem 1.5rem;
+  border-radius: 5px;
+  color: black;
+  font-size: .9rem;
+  width: 48%;
+  height: 6.5vh;
+}
+.button-projeto:hover, .button-repositorio:hover{
+  background-color: #8685EF;
+  transition-duration: 200ms;
+}
+.img-hover-eye, .img-hover-github{
+  display: none;
+  align-content: center;
+  justify-content: center;
+}
+.button-projeto:hover .img-hover-eye{
+  display: flex;
+}
+.button-projeto:hover .text-button-projeto{
+  display: none;
+}
+.button-repositorio:hover .img-hover-github{
+  display: flex;
+}
+.button-repositorio:hover .text-button-projeto{
+  display: none;
+}
+/*final projetos*/
+
+
+
 @media(max-width:800px){
   .perfil{
     flex-direction: column;
