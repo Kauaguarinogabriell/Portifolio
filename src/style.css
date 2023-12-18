@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
 }
 .App{
   min-height: 100vh;
@@ -44,7 +47,7 @@ a{
 /*introdução*/
 .section-introducao{
   background-color: #221824;
-  color: white;
+  color: #FFF;
   height:100vh;
   text-align: center;
 }
@@ -208,7 +211,7 @@ a{
 .footer{
   background-color: #221824;
   font-size: 1.3rem;
-  color: white;
+  color: #FFF;
   height: 100px;
   text-align: center;
 }
