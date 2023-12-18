@@ -1,4 +1,4 @@
-import arrow from '/home/kauag/github/Portifolio/src/imagens/arrow-down.svg';
+import arrow from '/home/kauag/github/Portifolio/src/imagens/arrow.svg';
 import linkedin from '/home/kauag/github/Portifolio/src/imagens/linkedin.svg';
 import github from '/home/kauag/github/Portifolio/src/imagens/github.svg';
 import gmail from '/home/kauag/github/Portifolio/src/imagens/envelope-at.svg';
