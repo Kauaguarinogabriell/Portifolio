@@ -119,6 +119,7 @@ a{
 .projetos{
   padding-top: 3rem;
   padding-bottom: 3rem;
+  margin-bottom: 0;
 }
 .container-cards-projetos{
   width: 100%;
@@ -204,9 +205,13 @@ a{
   display: none;
 }
 /*final projetos*/
-
-
-
+.footer{
+  background-color: #221824;
+  font-size: 1.3rem;
+  color: white;
+  height: 100px;
+  text-align: center;
+}
 @media(max-width:800px){
   .perfil{
     flex-direction: column;

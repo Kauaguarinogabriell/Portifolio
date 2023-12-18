@@ -316,7 +316,7 @@ export default function Projects() {
               </div>
               <div className="div-buttons-card-projetos">
                 <a
-                  href="https://kauaguarinogabriell.github.io/Projeto-formulario-de-login-e-cadastro/index.html"
+                  href="https://kauaguarinogabriell.github.io/Portifolio/"
                   target="blank"
                   className="center button-projeto"
                 >
@@ -326,7 +326,7 @@ export default function Projects() {
                   <span className="text-button-projeto">Deploy</span>
                 </a>
                 <a
-                  href="https://github.com/Kauaguarinogabriell/Projeto-formulario-de-login-e-cadastro/tree/main"
+                  href="https://github.com/Kauaguarinogabriell/Portifolio"
                   target="blank"
                   className="center button-repositorio"
                 >

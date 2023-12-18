@@ -1,6 +1,7 @@
 import Introduction from './ components/Introduction';
 import AboutMe from './ components/AboutMe';
 import Projects from './ components/Projects';
+import Footer from './ components/Footer';
 import style from './style.css';
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Introduction />
       <AboutMe />
       <Projects />
+      <Footer />
     </div>
   );
 }

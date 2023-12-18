@@ -37,17 +37,15 @@ export default function AboutMe() {
               programação, aprendo rapidamente e crio soluções eficientes. Minha
               facilidade em aprender, habilidade de comunicação e paixão por
               desafios me permitem colaborar eficazmente em equipes
-              multidisciplinares.
+              multidisciplinares. Estou aberto a oportunidades que me permitam
+              aplicar e expandir meu conhecimento. Se você busca um profissional
+              dedicado, apaixonado por programação e pronto para enfrentar novos
+              desafios, ficarei feliz em contribuir para o sucesso do seu time
+              ou empresa.
             </p>
           </div>
           <div className="skill" style={{ width: '100%' }}>
             <h2 className="titles-about">Skills</h2>
-            <p>
-              Estou aberto a oportunidades que me permitam aplicar e expandir
-              meu conhecimento. Se você busca um profissional dedicado,
-              apaixonado por programação e pronto para enfrentar novos desafios,
-              ficarei feliz em contribuir para o sucesso do seu time ou empresa.
-            </p>
             <hr style={{ marginBottom: '1.5rem', marginTop: '1.5rem' }} />
             <div className="center container-habilidades">
               <div className="habilidade center">
