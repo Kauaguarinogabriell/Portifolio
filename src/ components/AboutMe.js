@@ -6,7 +6,52 @@ import react from '/home/kauag/github/Portifolio/src/imagens/atom.png';
 import Logica from '/home/kauag/github/Portifolio/src/imagens/brain.png';
 import Regex from '/home/kauag/github/Portifolio/src/imagens/expressoes.png';
 import Poo from '/home/kauag/github/Portifolio/src/imagens/target.png';
+import Skill from './Skills';
 export default function AboutMe() {
+  const skills = [
+    {
+      src: HTML,
+      alt: 'html icon',
+      title: 'HTML',
+    },
+
+    {
+      src: CSS,
+      alt: 'css icon',
+      title: 'CSS',
+    },
+
+    {
+      src: JavaScript,
+      alt: 'JavaScript icon',
+      title: 'JavaScript',
+    },
+
+    {
+      src: react,
+      alt: 'React icon',
+      title: 'React',
+    },
+
+    {
+      src: Regex,
+      alt: 'Regex icon',
+      title: 'Regex',
+    },
+
+    {
+      src: Logica,
+      alt: 'logica de programação icon',
+      title: 'Logica de Programação',
+    },
+
+    {
+      src: Poo,
+      alt: 'Programação orientada a objetos icon',
+      title: 'Programação Orientada a Objetos',
+    },
+  ];
+
   return (
     <section className="container center margin-container">
       <div className="center" style={{ width: '100%' }}>
@@ -48,60 +93,16 @@ export default function AboutMe() {
             <h2 className="titles-about">Skills</h2>
             <hr style={{ marginBottom: '1.5rem', marginTop: '1.5rem' }} />
             <div className="center container-habilidades">
-              <div className="habilidade center">
-                <img
-                  src={HTML}
-                  alt="Html icon"
-                  className="icones-habilidades"
-                />
-                <h2 className="title-habilidades">HTML</h2>
-              </div>
-              <div className="habilidade center">
-                <img src={CSS} alt="css icon" className="icones-habilidades" />
-                <h2 className="title-habilidades">CSS</h2>
-              </div>
-              <div className="habilidade center">
-                <img
-                  src={JavaScript}
-                  alt="Javascript icon"
-                  className="icones-habilidades"
-                />
-                <h2 className="title-habilidades">JavaScript</h2>
-              </div>
-              <div className="habilidade center">
-                <img
-                  src={react}
-                  alt="React icon"
-                  className="icones-habilidades"
-                />
-                <h2 className="title-habilidades">React</h2>
-              </div>
-              <div className="habilidade center">
-                <img
-                  src={Regex}
-                  alt="Regex icon"
-                  className="icones-habilidades"
-                />
-                <h2 className="title-habilidades">Regex</h2>
-              </div>
-              <div className="habilidade center">
-                <img
-                  src={Logica}
-                  alt="icone Logica de programação"
-                  className="icones-habilidades"
-                />
-                <h2 className="title-habilidades">Logica de Programação</h2>
-              </div>
-              <div className="habilidade center">
-                <img
-                  src={Poo}
-                  alt="Icone Programação irientada a objetos"
-                  className="icones-habilidades"
-                />
-                <h2 className="title-habilidades">
-                  Programação Orientada a Objetos
-                </h2>
-              </div>
+              {skills.map((item) => {
+                return (
+                  <Skill
+                    url={item.src}
+                    alt={item.alt}
+                    title={item.title}
+                    key={item.title}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>
