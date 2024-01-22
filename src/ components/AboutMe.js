@@ -6,6 +6,7 @@ import react from '/home/kauag/github/Portifolio/src/imagens/atom.png';
 import Logica from '/home/kauag/github/Portifolio/src/imagens/brain.png';
 import Regex from '/home/kauag/github/Portifolio/src/imagens/expressoes.png';
 import Poo from '/home/kauag/github/Portifolio/src/imagens/target.png';
+import Typescript from '/home/kauag/github/Portifolio/src/imagens/ts.png';
 import Skill from './Skills';
 export default function AboutMe() {
   const skills = [
@@ -37,6 +38,12 @@ export default function AboutMe() {
       src: Regex,
       alt: 'Regex icon',
       title: 'Regex',
+    },
+
+    {
+      src: Typescript,
+      alt: 'TypeScript',
+      title: 'TypeScript',
     },
 
     {
